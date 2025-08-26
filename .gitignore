@@ -1,0 +1,10 @@
+# Godot 4+ specific ignores
+.godot/
+
+!/LICENSE
+!/README.*.md
+!/addons/
+/addons/*
+!/addons/nklbdev.aseprite_importers/
+/builds
+*.tmp
