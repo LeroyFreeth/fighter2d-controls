@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Fighter2DState" load_steps=2 format=3 uid="uid://qieal3d0gi5g"]
+
+[ext_resource type="Script" uid="uid://dl1s0nu4trvih" path="res://scripts/fighter2d/state_machine/fighter2d_state.gd" id="1_43q88"]
+
+[resource]
+script = ExtResource("1_43q88")
+cancel_time_start = 0
+cancel_time_end = -1
+expire_time = 0
+animation_name = "walk_backward"
+speed = 0
+options = 0
+metadata/_custom_type_script = "uid://dl1s0nu4trvih"

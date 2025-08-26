@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Fighter2DInputCommandSequence" load_steps=5 format=3 uid="uid://bolqnh6m0g6tv"]
+
+[ext_resource type="Script" uid="uid://csasil8n10ix7" path="res://scripts/fighter2d/input_command/fighter2d_input_command.gd" id="1_w6775"]
+[ext_resource type="Resource" uid="uid://dh8kx2i32armx" path="res://resources/input_data/input_sequence/input_steps/backward_press.tres" id="2_w6775"]
+[ext_resource type="Script" uid="uid://bdvnlk1b7fwmp" path="res://scripts/fighter2d/input_command/fighter2d_input_command_sequence.gd" id="3_hqtr8"]
+[ext_resource type="Resource" uid="uid://bqgkyncd7q21t" path="res://resources/input_data/input_sequence/input_steps/backward_release.tres" id="3_uvi6c"]
+
+[resource]
+script = ExtResource("3_hqtr8")
+input_command_arr = Array[ExtResource("1_w6775")]([ExtResource("2_w6775"), ExtResource("3_uvi6c"), ExtResource("2_w6775")])
+metadata/_custom_type_script = "uid://bdvnlk1b7fwmp"

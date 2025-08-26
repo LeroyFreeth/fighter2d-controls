@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Fighter2DSwitchConditions" load_steps=3 format=3 uid="uid://divw36xrcgs8m"]
+
+[ext_resource type="Script" uid="uid://4rtwcuvblcvj" path="res://scripts/fighter2d/state_machine/fighter2d_state_switch_input_trigger.gd" id="1_s62dj"]
+[ext_resource type="Script" uid="uid://ccv16liv6i1oc" path="res://scripts/fighter2d/state_machine/fighter2d_switch_conditions.gd" id="2_twjmf"]
+
+[resource]
+script = ExtResource("2_twjmf")
+arr = Array[ExtResource("1_s62dj")]([])
+override_expire_state_index = 0
+override_get_hit_grounded_index = -1
+metadata/_custom_type_script = "uid://ccv16liv6i1oc"

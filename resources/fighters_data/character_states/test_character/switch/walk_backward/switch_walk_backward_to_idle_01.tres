@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Fighter2DStateSwitchInputTrigger" load_steps=3 format=3 uid="uid://diuu1ahcmmfvq"]
+
+[ext_resource type="Resource" uid="uid://qyeujo3sptbx" path="res://resources/input_data/input_sequence/f_press.tres" id="1_kynit"]
+[ext_resource type="Script" uid="uid://4rtwcuvblcvj" path="res://scripts/fighter2d/state_machine/fighter2d_state_switch_input_trigger.gd" id="2_vv4vh"]
+
+[resource]
+script = ExtResource("2_vv4vh")
+state_index = 0
+input_command_sequence = ExtResource("1_kynit")
+reverse_input_command = false
+flip_direction = false
+requires_hit = false
+can_kara_cancel = false
+metadata/_custom_type_script = "uid://4rtwcuvblcvj"

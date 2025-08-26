@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Fighter2DInputCommand" load_steps=2 format=3 uid="uid://b8twh666l5dpy"]
+
+[ext_resource type="Script" uid="uid://csasil8n10ix7" path="res://scripts/fighter2d/input_command/fighter2d_input_command.gd" id="1_amfvd"]
+
+[resource]
+script = ExtResource("1_amfvd")
+input_buffer_size = 4
+min_command_hold_duration = 1
+next_min_input_command_time = 0
+next_input_command_time = 15
+forward = 0
+backward = -1
+down = 2
+up = -1
+a = 1
+b = -1
+c = -1
+d = -1
+e = -1
+f = -1
+g = -1
+any_attack = -1
+metadata/_custom_type_script = "uid://csasil8n10ix7"

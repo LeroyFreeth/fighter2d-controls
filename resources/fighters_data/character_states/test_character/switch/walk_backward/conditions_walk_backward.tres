@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Fighter2DSwitchConditions" load_steps=9 format=3 uid="uid://cev04dx64uqi7"]
+
+[ext_resource type="Script" uid="uid://4rtwcuvblcvj" path="res://scripts/fighter2d/state_machine/fighter2d_state_switch_input_trigger.gd" id="1_v0kdw"]
+[ext_resource type="Resource" uid="uid://2orub4n2j23n" path="res://resources/fighters_data/character_states/test_character/switch/idle/switch_to_dash_forward.tres" id="2_y13eh"]
+[ext_resource type="Resource" uid="uid://upbrgc2lsups" path="res://resources/fighters_data/character_states/test_character/switch/idle/switch_to_dash_turn.tres" id="3_28qbq"]
+[ext_resource type="Resource" uid="uid://dp0f25s8d0lcd" path="res://resources/fighters_data/character_states/test_character/switch/idle/switch_to_walk_forward.tres" id="4_msn23"]
+[ext_resource type="Resource" uid="uid://pcmyrl6csbmu" path="res://resources/fighters_data/character_states/test_character/switch/walk_backward/switch_walk_backward_to_idle_00.tres" id="5_k7dk1"]
+[ext_resource type="Script" uid="uid://ccv16liv6i1oc" path="res://scripts/fighter2d/state_machine/fighter2d_switch_conditions.gd" id="6_iq7og"]
+[ext_resource type="Resource" uid="uid://diuu1ahcmmfvq" path="res://resources/fighters_data/character_states/test_character/switch/walk_backward/switch_walk_backward_to_idle_01.tres" id="6_mai8o"]
+[ext_resource type="Resource" uid="uid://dccbf5rfcs65t" path="res://resources/fighters_data/character_states/test_character/switch/walk_backward/switch_to_turn_walk_forward.tres" id="7_mai8o"]
+
+[resource]
+script = ExtResource("6_iq7og")
+arr = Array[ExtResource("1_v0kdw")]([ExtResource("2_y13eh"), ExtResource("3_28qbq"), ExtResource("4_msn23"), ExtResource("5_k7dk1"), ExtResource("6_mai8o"), ExtResource("7_mai8o")])
+override_expire_state_index = -1
+override_flip_direction = false
+override_get_hit_grounded_index = -1
+metadata/_custom_type_script = "uid://ccv16liv6i1oc"
